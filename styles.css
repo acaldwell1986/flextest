@@ -9,22 +9,23 @@ body {
 }
 .container1 {
     display: flex;
-    flex: 1 1 auto;
     background-color: green;
-    flex-grow: 2 1 auto;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .container1 div {
-    flex: 1 1 auto;
+
     background-color: royalblue;
-    font-size: 10em;
+    font-size: 1em;
     border-width: 5px;
     border-color: green;
     padding: 10px;
     margin: 10px;
 }
 
-.item1 {
-    flex: 2 1 auto;
+.container1 .item1 {
+    background-color: blue;
+    flex-grow: 1;
 }
 
